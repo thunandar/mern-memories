@@ -1,0 +1,21 @@
+{
+  "name": "project_mern_memories-part_6",
+  "version": "1.0.0",
+  "description": "![Memories](https://i.ibb.co/7CmVbCW/image.png)",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thunandar/mern-memories.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thunandar/mern-memories/issues"
+  },
+  "homepage": "https://github.com/thunandar/mern-memories#readme"
+}
